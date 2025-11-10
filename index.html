@@ -1,81 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bappa Hardware & Sanitary</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f2f2f2;
       margin: 0;
-      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #a2d2ff, #fef9d7);
+      color: #222;
+      text-align: center;
+      min-height: 100vh;
+      background-image: url('IMG_6652.PNG');
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: brightness(0.9);
     }
-    header {
-      background-color: #0066cc;
-      color: white;
-      padding: 20px 0;
-      font-size: 26px;
-      font-weight: bold;
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 40px 20px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.2);
     }
-    .gallery {
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #0077b6;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 25px;
+      color: #444;
+    }
+
+    .social-buttons {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 15px;
-      margin: 20px;
+      margin-bottom: 30px;
     }
-    .gallery img {
-      width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-    .links a {
-      display: block;
-      margin: 10px;
-      color: #0066cc;
-      font-size: 18px;
+
+    a.button {
+      display: inline-block;
+      background: #0077b6;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
       text-decoration: none;
       transition: 0.3s;
+      font-weight: bold;
     }
-    .links a:hover {
-      text-decoration: underline;
-      color: #003366;
+
+    a.button:hover {
+      background: #023e8a;
+      transform: scale(1.05);
     }
+
     footer {
-      margin-top: 30px;
-      padding: 20px;
-      background: #333;
-      color: white;
+      margin-top: 40px;
+      font-weight: bold;
+      color: #d62828;
+      font-size: 18px;
+    }
+
+    img.footer-img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-
-  <header>Bappa Hardware & Sanitary</header>
-
-  <p>All your social links in one beautiful page</p>
-
-  <div class="gallery">
-    <img src="IMG_6652.PNG" alt="Shop front 1">
-    <img src="IMG_6653.PNG" alt="Shop front 2">
-    <img src="IMG_6654.JPG" alt="Shop under construction">
-  </div>
-
-  <div class="links">
-    <a href="https://www.instagram.com/ig_diptiman_singha/" target="_blank">Instagram</a>
-    <a href="https://www.facebook.com/bappahardwarestore" target="_blank">Facebook</a>
-    <a href="https://wa.me/919002295450" target="_blank">WhatsApp Business</a>
-    <a href="mailto:bappahardwaresanitarystore@gmail.com">Email Us</a>
-    <a href="https://maps.app.goo.gl/TMMLSyi9F8wzEfmE6" target="_blank">Find us on Google Maps</a>
-  </div>
-
-  <footer>
-    🚀 WE ARE COMING IN THE ONLINE MODE  
-    <br><br>
-    © 2025 Bappa Hardware & Sanitary | All Rights Reserved
-  </footer>
-
-</body>
-</html>
+  <div class="overlay">
+    <h1>Bappa Hardware & Sanitary</h1>
+    <p>All your social links in one beautiful page</p>
